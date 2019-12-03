@@ -1,0 +1,22 @@
+{
+  "name": "communicating-with-postman",
+  "version": "0.0.1",
+  "description": "Presentation on using Postman as a tool for communicating among development teams",
+  "main": "index.js",
+  "directories": {
+    "lib": "lib"
+  },
+  "dependencies": {
+    "react-helmet": "^5.2.1"
+  },
+  "devDependencies": {
+    "mdx-deck": "^3.0.13"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "mdx-deck presentation.mdx",
+    "start-host": "mdx-deck -h 0.0.0.0 presentation.mdx"
+  },
+  "author": "Eric Credeur",
+  "license": "ISC"
+}
